@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+body{
+    font-family: 'Noto Serif', serif;
+}
+
+p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 50px;
+}
+
+.lead {
+    padding-right: 0;
+}
+ 
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.center_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    padding: 10px;
+    background-color: black;
+}
+
+.nav {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0.5rem 3rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #BFA03A;
+}
+
+.section_padding {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.row_padding {
+    padding-top: 40px;
+}
+
+.about {
+    padding: 50px;
+}
+
+
+.title {
+    padding-left: 80px;
+}
+
+.book_title {
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: 700;
+
+}
+
+.quote {
+    padding: 0px;
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.masthead {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white; 
+}
+
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+}
+
+.singleCol {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.darkBG {
+    background-color: #363636;
+    color: white;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    padding-left: 40px;
+    padding-right: 40px;
+    word-wrap: break-word;
+    display: flex;
+}
+
+.card-img-top {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.overlay {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.category {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    padding-left: 80px;
+}
+
+.btn {
+    display: inline-block;
+}
+
+.white {
+    color: white;
+}
+
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a.btn.btn-outline-dark.btn-lg {
+    color: white;
+    letter-spacing: 1px;
+    border: 3px solid #BFA03A;
+    background: #BFA03A;
+    transition: all 0.3s ease 0s;
+}
+
+a.btn.btn-outline-light.btn-lg {
+    color: white;
+    letter-spacing: 1px;
+    border: 3px solid #BFA03A;
+    background: #BFA03A;
+    transition: all 0.3s ease 0s;
+}
+
+a.btn.btn-outline-dark.btn-lg:hover {
+    color: #BFA03A;
+    background: transparent;
+    border: 2px solid #BFA03A;
+}
+
+a.btn.btn-outline-light.btn-lg:hover {
+    color: #BFA03A;
+    background: transparent;
+    border: 2px solid #BFA03A;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28191, 160, 58, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: rgba(255,255,255,.1);
+    border: 0.5px solid;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+
+  
+.zoom {
+    background-color: rgba(0,0,0,0.4);
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
